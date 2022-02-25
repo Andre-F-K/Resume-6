@@ -1,0 +1,137 @@
+*{
+  text-align: center;
+}/* align all text to centre*/
+
+header {
+  text-align: center;
+  font: 1rem bold italic ;
+  height: fit-content;
+  background-image: url(../images/headerBack.jpg);
+  background-position: bottom;
+  background-size: cover;
+  border: 5px groove white;
+  height: 1300px ;
+  width: 480px;
+}/* adding background image, sizing and border */
+
+footer {
+  background-color: #343330;
+  text-align: center;
+  border: 5px groove white;
+  display: block;
+  margin: 0px;
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+}/* background color border an display property selected */
+
+
+#menu {
+  background-color: #343330;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  width: 750px;
+  height: 85px;
+  border-style: groove;
+  border-width: 5px;
+  font-style: oblique;
+  font-weight: bold;
+  
+}/* menu background align and color */
+
+.menuList {
+  list-style-type: none;
+  padding: 0px;
+   
+}/* Moving padding for optimal placement*/
+
+.menuList a:visited {
+  text-decoration: none;color: white;
+}/* making the menu links stay the same color when clicked */
+
+#andrePhoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50% ;
+  outline: 3px dotted white;
+  outline-offset: -20px;
+  padding: 50px;
+
+}/* adding radius to photo and adjusting size */
+
+.contactMeLinks {
+  list-style-type: none;
+  list-style-type: none;
+  padding: 0px;
+  color: white;
+  
+}/*changing list style type an color incase the images doesn't load*/
+
+
+
+body {
+  background-color: rgb(167, 187, 172);
+  
+}/* background color */
+
+.content {
+  display: flex;
+  
+}/* changing all content display except footer to flex*/
+
+.menuAndBody {
+  display: block;
+  width: 1000px;
+}/* Making menu and body block and adjusting size */
+
+
+
+#experience {
+  border-top-style: groove;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: underline
+
+}/* adding a divider between topics */
+
+#education {
+  border-top-style: groove;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: underline
+}
+
+#aboutMe {
+  border-top-style: groove;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: underline
+}/* adding a divider between topics */
+
+#skills {
+  border-top-style: groove;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: underline;
+  
+}/* adding a divider between topics */
+.skillsList {
+  list-style-type: none;
+  font-style: oblique;
+}/* adding a divider between topics */
+
+.menuLinks{
+  padding-right: 55px;
+}
+
+#name{
+  font-weight: bolder
+  ;font-style: oblique;
+}
+
+
+
+
+
+  
